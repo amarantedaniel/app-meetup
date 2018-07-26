@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         buttonIncrement.setOnClickListener {
             increment()
+            increment()
         }
 
         buttonDecrement.setOnClickListener {
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             it.size += 1
             it.notifyDataSetChanged()
         }
-x
+
     }
 }
 
